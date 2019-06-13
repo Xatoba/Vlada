@@ -77,7 +77,7 @@ public class ViewResult implements View {
         String o = Integer.toOctalString(x);
         int amountHex = h.length();
         int amountOctal = o.length();
-        return amountHex + " " + amountOctal;
+        return amountHex + " \t " + amountOctal;
     }
 
     /**

@@ -50,7 +50,7 @@ public class ViewTable extends ViewResult {
     private void outHeader() {
         Formatter fmt = new Formatter();
         fmt.format("%s%d%s%2$s%s", "%", (width - 10) / 2, "s | %", "s\n");
-        System.out.printf(fmt.toString(), "Number ", "Octal    Hex ");
+        System.out.printf(fmt.toString(), "Number ", "  Octal    Hex ");
     }
 
     private void outBody() {
